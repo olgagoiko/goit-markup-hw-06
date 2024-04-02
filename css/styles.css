@@ -39,8 +39,9 @@ address {
 }
 
 .container {
-    max-width: 1158px;
-    padding: 0 15px;
+    /* max-width: 1158px; */
+    max-width: 320px;
+    padding: 0 16px;
     margin: 0 auto;
 }
 
@@ -195,7 +196,8 @@ address {
 }
 
 .solutions {
-    padding: 120px 0;
+    /* padding: 120px 0; */
+    padding: 96px 16px;
 }
 
 .solutions-container {
@@ -219,16 +221,18 @@ address {
 
 .solutions-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    /* gap: 24px; */
+    gap: 72px;
 }
 
 .solutions-item {
-    width: calc((100% - 72px) / 4);
-
+    /* width: calc((100% - 72px) / 4); */
+    width: 100%;
 }
 
 .solutions-icon {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid #8e8f99;
@@ -236,24 +240,31 @@ address {
     width: 264px;
     height: 112px;
     background: #f4f4fd;
-    margin-bottom: 8px;
+    margin-bottom: 8px; */
+    display: none;
 }
 
 .solutions-subtitle {
-    font-weight: 500;
+    /* font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    line-height: 1.2; */
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
     margin-bottom: 8px;
 }
 
 .solutions-text {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    width: 264px;
+    /* width: 264px; */
+    width: 288px;
 }
 
 .team {
@@ -792,4 +803,69 @@ address {
 
 .modal-btn {
     margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+    max-width: 768px;
+    } 
+
+    .solutions-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    .solutions-item {
+        width: calc((100%) / 2);
+    }
+
+    .solutions-subtitle {
+        text-align: left;
+    }
+
+    .solutions-text {
+        width: 356px; 
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+    max-width: 1158px;
+    padding: 0 15px;
+    } 
+
+    .solutions {
+        padding: 120px 0;
+    }
+    
+    .solutions-list {
+        gap: 24px; 
+    }
+
+    .solutions-item {
+        width: calc((100% - 72px) / 4)
+    }
+
+    .solutions-icon  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background: #f4f4fd;
+        margin-bottom: 8px;
+    }
+
+    .solutions-subtitle {
+        font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    }
+
+    .solutions-text {
+        font-weight: 500;
+        width: 264px; 
+    }
 }
