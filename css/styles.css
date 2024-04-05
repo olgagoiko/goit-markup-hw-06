@@ -378,7 +378,8 @@ address {
 }
 
 .portfolio {
-  padding: 120px 0;
+  /* padding: 120px 0; */
+  padding: 96px 16px;
 }
 
 .portfolio-title {
@@ -405,7 +406,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
+  max-width: 288px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
   position: relative;
@@ -881,6 +883,9 @@ address {
   .team-item {
     width: calc((100% - 24px) / 2); 
   }
+
+
+
 }
 
 @media screen and (min-width: 1158px) {
