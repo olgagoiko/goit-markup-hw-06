@@ -154,12 +154,11 @@ address {
   background: #fff;
   padding: 72px 24px 40px 16px;
   opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.mob-menu-part2 {
 }
 
 .mob-menu-btn {
@@ -314,7 +313,7 @@ address {
 
 .solutions {
   /* padding: 120px 0; */
-  padding: 96px 16px;
+  padding: 96px 0;
 }
 
 .solutions-container {
@@ -390,7 +389,7 @@ address {
 }
 
 .team-container {
-  padding: 96px 28px;
+  padding: 96px 0;
 }
 
 .team-title {
@@ -411,6 +410,7 @@ address {
   flex-wrap: wrap;
   /* gap: 24px; */
   gap: 72px;
+  
 }
 
 .team-item {
@@ -479,7 +479,7 @@ address {
 
 .portfolio {
   /* padding: 120px 0; */
-  padding: 96px 16px;
+  padding: 96px 0;
 }
 
 .portfolio-title {
@@ -564,7 +564,7 @@ address {
   background: #2e2f42;
   /* padding: 100px 0; */
   padding: 96px 0;
-}
+ }
 
 /* .footer-list {
   display: flex;
@@ -578,6 +578,7 @@ address {
 
 .footer-logo-text {
   /* margin-right: 120px; */
+  margin-bottom: 72px;
 }
 
 .footer-partlogo {
@@ -610,7 +611,7 @@ address {
   /* max-width: 264px; */
   max-width: 288px;
   text-align: left;
-  margin-bottom: 72px;
+  
 }
 
 .social-media {
@@ -624,13 +625,17 @@ address {
   text-align: center;
 }
 
+.footer-media {
+  margin-bottom: 72px;
+}
+
 .footer-icon {
   display: flex;
   gap: 16px;
   fill: #fff;
   align-items: center;
   justify-content: center;
-  margin-bottom: 72px;
+  
 }
 
 .footer-social-icon {
@@ -660,6 +665,7 @@ address {
 
 .subscribe {
   /* margin-left: 80px; */
+
 }
 
 .subscribe-form {
@@ -679,6 +685,7 @@ address {
 
 .footer-modal {
   /* display: flex; */
+
 }
 
 .form-input {
@@ -933,6 +940,27 @@ address {
     max-width: 768px;
   }
 
+.logo {
+  margin-right: 120px;
+}
+
+  .nav-list {
+    display: flex;
+    gap: 40px;
+    
+  }
+
+ .address-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+
+  .header-menu-btn {
+    display: none;
+  }
+
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -976,16 +1004,13 @@ address {
     width: 356px;
   }
 
-  .team-container {
-    padding: 96px 108px;
-  }
-
   .team-title {
     margin-bottom: 72px;
   }
 
   .team-list {
     gap: 64px 24px;
+    justify-content: center;
   }
 
   .team-item {
@@ -1008,7 +1033,7 @@ address {
   }
 
   .footer-logo-text {
-    margin-left: 108px;
+    padding-left: 108px;
     max-height: 112px;
   }
 
@@ -1064,6 +1089,8 @@ address {
     max-width: 1158px;
     padding: 0 15px;
   }
+
+  
 
   .hero {
     background-image: linear-gradient(
@@ -1161,7 +1188,7 @@ address {
 
   .footer-logo-text {
     margin-right: 120px;
-    margin-left: 0;
+    padding-left: 0;
   }
 
   .subscribe {
