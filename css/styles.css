@@ -239,10 +239,8 @@ address {
   /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg); */
   /* padding: 188px 0;
     max-width: 1440px; */
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
     url(../images/Dark-bg-mob.jpg);
   padding: 72px 0;
   max-width: 320px;
@@ -255,10 +253,8 @@ address {
 
 @media screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
       url(../images/Dark-bg-mob-2x.jpg);
   }
 }
@@ -410,7 +406,7 @@ address {
   flex-wrap: wrap;
   /* gap: 24px; */
   gap: 72px;
-  
+
 }
 
 .team-item {
@@ -564,17 +560,12 @@ address {
   background: #2e2f42;
   /* padding: 100px 0; */
   padding: 96px 0;
- }
+}
 
 /* .footer-list {
   display: flex;
   gap: 120px;
 } */
-
-.footer-container {
-  /* display: flex;
-  align-items: baseline; */
-}
 
 .footer-logo-text {
   /* margin-right: 120px; */
@@ -611,7 +602,7 @@ address {
   /* max-width: 264px; */
   max-width: 288px;
   text-align: left;
-  
+
 }
 
 .social-media {
@@ -635,7 +626,7 @@ address {
   fill: #fff;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 .footer-social-icon {
@@ -663,16 +654,6 @@ address {
   fill: #f4f4fd;
 }
 
-.subscribe {
-  /* margin-left: 80px; */
-
-}
-
-.subscribe-form {
-  /* display: flex; */
-  /* gap: 24px; */
-}
-
 .subscribe-text {
   font-weight: 500;
   font-size: 16px;
@@ -681,11 +662,6 @@ address {
   color: #fff;
   text-align: center;
   margin-bottom: 16px;
-}
-
-.footer-modal {
-  /* display: flex; */
-
 }
 
 .form-input {
@@ -866,7 +842,7 @@ address {
   border-color: #4d5ae5;
 }
 
-.modal-input:focus + .modal-icon {
+.modal-input:focus+.modal-icon {
   fill: #4d5ae5;
 }
 
@@ -925,7 +901,7 @@ address {
   fill: transparent;
 }
 
-.modal-check:checked + .check-text span {
+.modal-check:checked+.check-text span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -940,17 +916,17 @@ address {
     max-width: 768px;
   }
 
-.logo {
-  margin-right: 120px;
-}
+  .logo {
+    margin-right: 120px;
+  }
 
   .nav-list {
     display: flex;
     gap: 40px;
-    
+
   }
 
- .address-list {
+  .address-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -962,10 +938,8 @@ address {
   }
 
   .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
       url(../images/Dark-bg-tab.jpg);
     padding: 112px 0;
     max-width: 768px;
@@ -973,10 +947,8 @@ address {
 
   @media screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
         url(../images/Dark-bg-tab-2x.jpg);
     }
   }
@@ -1090,13 +1062,24 @@ address {
     padding: 0 15px;
   }
 
-  
+  .logo {
+    margin-right: 76px;
+  }
+
+  .nav-list {
+    gap: 40px;
+
+  }
+
+  .address-list {
+    flex-wrap: no-wrap;
+    justify-content: flex-end;
+    gap: 40px;
+  }
 
   .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
       url(../images/people-office.jpg);
     padding: 188px 0;
     max-width: 1440px;
@@ -1104,10 +1087,8 @@ address {
 
   @media screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
         url(../images/people-office-2x.jpg);
     }
   }
@@ -1147,7 +1128,7 @@ address {
   }
 
   .solutions-text {
-    font-weight: 500;
+    font-weight: 400;
     width: 264px;
   }
 
